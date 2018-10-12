@@ -40,6 +40,7 @@ namespace WorkingWithVisualStudio
         {
             app.UseDeveloperExceptionPage();
             app.UseBrowserLink();
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
             if (env.IsDevelopment())
             {

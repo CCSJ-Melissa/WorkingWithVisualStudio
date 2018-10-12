@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\second.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="first.css\" />
   </ItemGroup>
 
 </Project>
